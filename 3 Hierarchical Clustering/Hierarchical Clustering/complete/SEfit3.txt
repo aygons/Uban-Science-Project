@@ -1,0 +1,99 @@
+
+Call:
+lm(formula = SE ~ NewKPI2 + KPI0116 + KPI3226 + NewKPI1 + NewKPI3 + 
+    KPI0068 + KPI0017 + KPI0012 + KPI0077 + TS + SI + IT + TSI, 
+    data = ml.SE_19var)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.4571 -0.3490 -0.1086  0.2619  3.0064 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.574e+00  8.018e-02  19.630  < 2e-16 ***
+NewKPI2      1.799e-03  1.495e-04  12.031  < 2e-16 ***
+KPI0116     -1.791e-03  2.478e-04  -7.227 6.23e-13 ***
+KPI3226     -2.470e+00  3.213e-01  -7.688 2.01e-14 ***
+NewKPI1      3.440e-04  4.790e-05   7.181 8.71e-13 ***
+NewKPI3     -1.566e-03  2.364e-04  -6.622 4.19e-11 ***
+KPI0068     -5.682e-04  2.094e-04  -2.713  0.00670 ** 
+KPI0017     -3.117e-05  1.317e-05  -2.366  0.01803 *  
+KPI0012     -3.081e-01  6.881e-02  -4.477 7.86e-06 ***
+KPI0077      1.115e-06  1.348e-07   8.272  < 2e-16 ***
+TS           2.602e-07  1.118e-07   2.327  0.02001 *  
+SI           6.742e-06  8.408e-07   8.019 1.52e-15 ***
+IT          -3.918e-06  5.972e-07  -6.561 6.27e-11 ***
+TSI          1.622e-10  6.288e-11   2.579  0.00997 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5626 on 3002 degrees of freedom
+Multiple R-squared:  0.326,	Adjusted R-squared:  0.3231 
+F-statistic: 111.7 on 13 and 3002 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = SE ~ NewKPI2 + KPI0116 + KPI3226 + NewKPI1 + NewKPI3 + 
+    KPI0068 + KPI0017 + KPI0012 + KPI0077 + TS + SI + IT + TSI, 
+    data = ml.SE_19var)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1.9734 -0.3433 -0.1237  0.2517  3.9950 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.579e+00  6.579e-02  23.999  < 2e-16 ***
+NewKPI2      2.457e-03  1.198e-04  20.512  < 2e-16 ***
+KPI0116     -1.793e-03  1.957e-04  -9.163  < 2e-16 ***
+KPI3226     -2.430e+00  2.637e-01  -9.216  < 2e-16 ***
+NewKPI1      3.336e-04  3.781e-05   8.823  < 2e-16 ***
+NewKPI3     -1.625e-03  2.013e-04  -8.072 8.79e-16 ***
+KPI0068     -3.581e-04  1.522e-04  -2.352   0.0187 *  
+KPI0017     -5.697e-05  1.077e-05  -5.290 1.28e-07 ***
+KPI0012     -3.845e-01  5.588e-02  -6.882 6.73e-12 ***
+KPI0077      9.879e-07  1.117e-07   8.847  < 2e-16 ***
+TS          -1.693e-07  7.920e-08  -2.137   0.0326 *  
+SI           9.153e-06  7.588e-07  12.063  < 2e-16 ***
+IT          -3.413e-06  4.631e-07  -7.369 2.03e-13 ***
+TSI         -1.716e-10  3.430e-11  -5.004 5.83e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5687 on 4497 degrees of freedom
+Multiple R-squared:  0.3343,	Adjusted R-squared:  0.3324 
+F-statistic: 173.7 on 13 and 4497 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = SE ~ NewKPI2 + KPI0116 + KPI3226 + NewKPI1 + NewKPI3 + 
+    KPI0068 + KPI0017 + KPI0012 + KPI0077 + TS + SI + IT + TSI, 
+    data = ml.SE_19var)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.85803 -0.25615 -0.07376  0.23118  0.92149 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)   
+(Intercept)  6.013e-01  5.975e-01   1.006  0.31874   
+NewKPI2      6.603e-04  3.448e-03   0.191  0.84888   
+KPI0116     -4.107e-03  1.660e-03  -2.475  0.01650 * 
+KPI3226      2.229e+00  1.906e+00   1.170  0.24727   
+NewKPI1      8.434e-05  8.524e-04   0.099  0.92154   
+NewKPI3      6.882e-05  3.349e-03   0.021  0.98368   
+KPI0068      4.168e-03  3.317e-03   1.257  0.21428   
+KPI0017      1.058e-03  3.350e-04   3.160  0.00259 **
+KPI0012     -1.562e-01  3.934e-01  -0.397  0.69296   
+KPI0077     -9.310e-07  1.419e-06  -0.656  0.51442   
+TS          -2.879e-07  5.981e-06  -0.048  0.96178   
+SI          -3.687e-05  3.554e-05  -1.037  0.30418   
+IT          -1.863e-06  8.701e-06  -0.214  0.83124   
+TSI          5.616e-08  6.533e-08   0.860  0.39384   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4146 on 54 degrees of freedom
+Multiple R-squared:  0.4662,	Adjusted R-squared:  0.3377 
+F-statistic: 3.628 on 13 and 54 DF,  p-value: 0.0003994
+

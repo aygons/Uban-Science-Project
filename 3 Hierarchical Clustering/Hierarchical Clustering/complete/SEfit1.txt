@@ -1,0 +1,33 @@
+
+Call:
+lm(formula = SE ~ NewKPI2 + KPI0116 + KPI3226 + NewKPI1 + NewKPI3 + 
+    KPI0068 + KPI0017 + KPI0012 + KPI0077 + TS + SI + IT + TSI, 
+    data = ml.SE_19var)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.1069 -0.3881 -0.1260  0.3048  3.7637 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.685e+00  5.291e-02  31.844  < 2e-16 ***
+NewKPI2      1.994e-03  9.209e-05  21.653  < 2e-16 ***
+KPI0116     -8.457e-04  1.196e-04  -7.073 1.65e-12 ***
+KPI3226     -3.339e+00  2.183e-01 -15.299  < 2e-16 ***
+NewKPI1      3.124e-04  2.541e-05  12.291  < 2e-16 ***
+NewKPI3     -7.524e-04  1.721e-04  -4.371 1.25e-05 ***
+KPI0068     -6.742e-04  1.602e-04  -4.210 2.59e-05 ***
+KPI0017     -3.599e-05  7.219e-06  -4.986 6.30e-07 ***
+KPI0012     -4.390e-01  4.456e-02  -9.852  < 2e-16 ***
+KPI0077      1.311e-06  1.116e-07  11.743  < 2e-16 ***
+TS          -2.000e-07  3.085e-08  -6.483 9.56e-11 ***
+SI           4.857e-06  7.066e-07   6.874 6.73e-12 ***
+IT          -2.428e-06  3.260e-07  -7.448 1.05e-13 ***
+TSI         -1.136e-10  1.995e-11  -5.697 1.26e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.605 on 7581 degrees of freedom
+Multiple R-squared:  0.261,	Adjusted R-squared:  0.2597 
+F-statistic:   206 on 13 and 7581 DF,  p-value: < 2.2e-16
+
